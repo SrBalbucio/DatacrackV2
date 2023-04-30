@@ -1,0 +1,7 @@
+#Datacrack V2 - Socket
+socket1:
+  port: 25465
+  ssl: false
+socket2:
+  port: 25466
+  ssl: true

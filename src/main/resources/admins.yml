@@ -1,0 +1,28 @@
+#DATACRACK V2 - CRIADO POR SR_BALBUCIO
+
+#Lista de permissões disponíveis:
+# read.datapack.<path> - Autorização para ler um certo datapack (incluindo LinkedDataPack)
+# info.datapack.<path> - Autorização para checar informações relacionadas ao DataPack/LinkedDataPack
+# write.datapack.<path> - Autorização para escrever em um certo datapack (incluindo LinkedDataPack)
+# delete.datapack - Autorização para deletar datapacks
+# all.datapack.<path> - Autorização para fazer qualquer coisa em um certo datapack (incluindo LinkedDataPack)
+# datacrack.createuser - Autorização para criar usuários (isso não significa criar admins)
+# datacrack.createadmin - Autorização para criar admins (tome cuidado com essa permissão)
+
+admins:
+  admin1:
+    username: "Admin"
+    password: "Admin"
+    permissions:
+      - "all.datapack"
+      - "datacrack.createuser"
+  admin2:
+    username: "Admin2"
+    password: "Admin2"
+    permissions:
+      - "all.datapack"
+  admin3:
+    username: "Ademiro"
+    password: "Admirson"
+    permissions:
+      - "all.datapack"
